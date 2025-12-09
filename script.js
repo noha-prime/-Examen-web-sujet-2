@@ -7,8 +7,8 @@ toggleBtn.addEventListener('click', function() {
     
     // Changer le texte du bouton
     if (caracteristiques.classList.contains('hidden')) {
-        toggleBtn.textContent = 'Voir les caractéristiques';
+        toggleBtn.textContent = 'Voir les caractéristiques du produit';
     } else {
-        toggleBtn.textContent = 'Masquer les caractéristiques';
+        toggleBtn.textContent = 'Masquer les caractéristiques du produit';    
     }
 });
